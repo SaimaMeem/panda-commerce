@@ -15,7 +15,7 @@
 </head>
 <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo.png" alt="logo">
@@ -29,13 +29,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shoes</a>
+                        <a class="nav-link" href="#shoe">Shoes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Backpack</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Subcribe</a>
+                        <a class="nav-link" href="#subcribe">Subcribe</a>
                     </li>
                 </ul>
             </div>
@@ -47,40 +47,41 @@
 
     <section class="container my-5">
         <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner rounded-3">
-                <div class="carousel-item active" data-bs-interval="5000">
+            <div class="carousel-inner rounded-3 bg-custom">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <div class="row d-flex justify-content-center align-items-center p-5">
                         <div class="col-lg-7">
                             <h2>Mega LCD TV For Sports </h2>
-                            <p>This is the best TV in the world for people who just want to waste time in front of TV.</p>
+                            <p>This is the best TV in the world for people who just want to spend time in front of TV.</p>
                             <h1 class="price">$2000</h1>
                             <button class="btn btn-custom text-white">Buy Now!</button>
                         </div>
                         <div class="col-lg-5"> <img src="./images/banner-images/tv.png" class="d-block w-100" alt="carousel images"></div>
                     </div>
                 </div>
-                <!-- <div class="carousel-item" data-bs-interval="5000 ">
+                <div class="carousel-item" data-bs-interval="3000 ">
                     <div class="row d-flex justify-content-center align-items-center p-5 ">
                         <div class="col-lg-7 ">
-                            <h1>Mega LCD TV For Sports </h1>
-                            <p>This is the best TV in the world for people who just want to waste time in front of TV.</p>
-                            <h1>$2000</h1>
-                            <button class="btn btn-custom">Buy Now!</button>
+                            <h2>Awsome Headphones for Gamers</h2>
+                            <p>This is the best headphone in the world for people who just want to spend time in front of funky world.</p>
+                            <h1 class="price">$420</h1>
+                            <button class="btn btn-custom text-white">Buy Now!</button>
                         </div>
-                        <div class="col-lg-5 "> <img src="./images/banner-images/headphone.png " class="d-block w-100 " alt="carousel images "></div>
+                        <div class="col-lg-5 "> <img src="./images/banner-images/headphone.png " class="d-block w-100" alt="carousel images "></div>
                     </div>
                 </div>
-                <div class="carousel-item " data-bs-interval="5000 ">
+                <div class="carousel-item " data-bs-interval="3000 ">
                     <div class="row d-flex justify-content-center align-items-center p-5">
                         <div class="col-lg-7 ">
-                            <h2>Mega LCD TV For Sports </h2>
-                            <p>This is the best TV in the world for people who just want to waste time in front of TV.</p>
-                            <span>$2000</span>
-                            <button class="btn btn-primary ">Buy Now!</button>
+                            <h2>X-box for your living room </h2>
+                            <p>This is the best x-box in the world for gamers.
+                            </p>
+                            <h1 class="price">$600</h1>
+                            <button class="btn btn-custom text-white ">Buy Now!</button>
                         </div>
                         <div class="col-lg-5 "> <img src="./images/banner-images/xbox.png " class="d-block w-100 " alt="carousel images "></div>
                     </div>
-                </div> -->
+                </div>
             </div>
             <a class="carousel-control-prev" role="button" data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -122,7 +123,7 @@
 
 
     <!-- shoe section -->
-    <section class="container mb-5">
+    <section class="container mb-5" id="shoe">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
             <div class="col rounded-3 shadow-lg py-3">
@@ -171,7 +172,7 @@
 
 
     <!-- bag section -->
-    <section class="container mb-5">
+    <section class="container mb-5" id="backpack">
         <h2>Bags</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
             <div class="col rounded-3 shadow-lg py-3">
@@ -215,8 +216,27 @@
             </div>
         </div>
     </section>
-
     <!-- bag section -->
+    <!-- subcribe section -->
+    <section class="container bg-custom d-flex flex-column align-items-center justify-content-center my-5 py-5 rounded-3" id="subcribe">
+        <div class=" ">
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p class="text-secondary ">Get updates on sales specials and more</p>
+
+        </div>
+        <div class="input-group mb-3 rounded-3 w-auto pb-5">
+            <input type="text " class="form-control border-0 " placeholder="Enter your email " aria-label="Recipient 's username" aria-describedby="button">
+            <button class="btn btn-custom text-white justify-content-center" type="button" id="button">Submit</button>
+        </div>
+    </section>
+    <!-- subcribe section -->
+
+
+    <!--footer  -->
+    <footer class="container ">
+        <p class="text-center"><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
+    <!--footer  -->
 </header>
 
 <body>
